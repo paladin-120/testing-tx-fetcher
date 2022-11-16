@@ -1,0 +1,98 @@
+.dashboard-content {
+    background-image: url(/public/img/banner-header.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;    
+}
+
+.dashboard-top-search {
+    text-align: center;
+    padding: 24px 0px;
+}
+
+.dashboard-top-title {
+    text-align: center;
+    font-size: 32px !important;
+    color: #ffffff !important;
+}
+
+.dashboard-top-form {
+    margin: auto;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid rgb(0, 232, 181);
+    max-width: 800px;
+}
+
+.dashboard-tx-form {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: rgb(234, 234, 234);
+}
+
+.dashboard-search-box {
+    border-radius: 8px;
+    color: rgba(0,0,0,.85);
+    display: inline-block;
+    background: #fff;
+    font-size: 14px;
+    line-height: 1.5715;
+    min-width: 0;
+    padding: 5px 12px;
+    position: relative;
+    transition: all .3s;
+    width: 100%;
+}
+
+.dashboard-search-box .ant-input {
+    font-feature-settings: "tnum","tnum";
+    background-color: #fff;
+    background-image: none;
+    border: 0px solid #d9d9d9;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: rgba(0,0,0,.85);
+    display: inline-block;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    min-width: 480px;
+    padding: 0px !important;
+    
+    position: relative;
+    transition: all .3s;
+    width: 100%;
+}
+
+.dashboard-search-box .ant-input-affix-wrapper {
+    border: solid 0px #fff !important;
+    box-shadow: none !important;
+    padding: 10px !important;
+}
+
+.dashboard-search-box .ant-input-search-button {
+    background: rgb(199, 74, 227);
+    color: rgb(255, 255, 255);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    right: 0px;
+    z-index: 9;
+    border-radius: 8px !important;    
+    border: 0px !important;
+    width: 48px !important;
+    height: 40px !important;
+    padding: 0px !important;
+}
